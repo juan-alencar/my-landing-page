@@ -10,20 +10,18 @@ export default createGlobalStyle`
  }
 
  html, border-style, #root{
-    max-height: 100vh;
+}
+
+*, button, input{
+   border: 0;
+   background: none;
+   font-family: Ubuntu, sans-serif;
+}
+
+html {
     max-width: 100vw;
-
+    height: auto;
     width: 100%;
-    height: 100%;
- }
-
- *, button, input{
-    border: 0;
-    background: none;
-    font-family: Ubuntu, sans-serif;
- }
-
- html {
     background: linear-gradient(to top right, var(--secondary), var(--primary));
  }
     :root{

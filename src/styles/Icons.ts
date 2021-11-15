@@ -14,4 +14,4 @@ export {
   Twitter,
 } from 'styled-icons/fa-brands';
 export { Figma, Git } from 'styled-icons/boxicons-logos/';
-export { Postgresql } from 'styled-icons/simple-icons/';
+export { Postgresql, Typescript } from 'styled-icons/simple-icons/';
