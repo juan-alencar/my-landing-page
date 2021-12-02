@@ -6,8 +6,20 @@ const ProfilePhoto: React.FC = () => {
   return (
     <Container>
       <Icons>
-        <InstagramIcon />
-        <WhatsappIcon />
+        <a
+          href="https://www.instagram.com//juan._alencar"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <InstagramIcon />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=5583986745363&text=Oi%2C%20vim%20atrav%C3%A9s%20da%20sua%20LandingPage%2C%20quero%20uma%20com%20a%20mesma%20qualidade!"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <WhatsappIcon />
+        </a>
       </Icons>
       <img src="https://i.ibb.co/fSMPFvy/juan.png" alt="juanfoto" />
     </Container>

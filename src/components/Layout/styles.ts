@@ -33,21 +33,30 @@ export const SplashImg = styled.div`
 
 export const Section = styled.div`
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+
   &:first-child {
-    height: 85vh;
+    flex-direction: column-reverse;
+    height: 90vh;
     margin-top: 0;
-    margin-bottom: -100px;
+    margin-bottom: 0;
   }
+
   &:last-child {
     margin-bottom: 100px;
   }
+
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
+    &:first-child {
+      height: 85vh;
+      flex-direction: row;
+      margin-bottom: -100px;
+    }
   }
 `;
 export const Profile = styled.div`
