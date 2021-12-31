@@ -50,18 +50,25 @@ export const Columns = styled.div`
   }
 
   /* border-left: 1px solid; */
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     > td {
       > tr {
         height: 85px;
       }
     }
-    padding: 25px 35px;
+    padding: 25px 7vw;
+  }
+  @media (min-width: 900px) {
+    > td {
+      > tr {
+        height: 85px;
+      }
+    }
+    padding: 25px 40px;
   }
 `;
 
 const IconCss = css`
-  height: 35px;
   width: 35px;
   position: sticky;
 `;

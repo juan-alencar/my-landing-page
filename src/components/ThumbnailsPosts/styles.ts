@@ -11,9 +11,11 @@ export const Thumbnail = styled.div`
   padding-bottom: 56.25%;
   margin-bottom: 16px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     width: 90%;
     padding-bottom: 50.625%;
   }
 `;
-export const Informations = styled.div``;
+export const Informations = styled.div`
+  margin-bottom: 16px;
+`;
