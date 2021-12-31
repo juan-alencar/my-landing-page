@@ -11,10 +11,10 @@ const Menu: React.FC = () => {
       </Toggle>
       <ul>
         <li>
-          <a href="https://twitter.com/home">about</a>
+          <a href="#about">about</a>
         </li>
         <li>
-          <a href="https://twitter.com/home">portfolio</a>
+          <a href="#portfolio">portfolio</a>
         </li>
         <li>
           <a href="https://twitter.com/home">contact</a>
