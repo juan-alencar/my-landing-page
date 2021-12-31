@@ -22,15 +22,14 @@ export const Container = styled.div`
   }
 `;
 export const Columns = styled.div`
-  /* border-left: 1px solid; */
   > td {
     > tr {
       display: flex;
       align-items: center;
-      height: 85px;
+      height: 70px;
     }
   }
-  padding: 25px 35px;
+  padding: 10px 20px;
   border-right: 1px solid;
   border-image: linear-gradient(
       to bottom,
@@ -49,11 +48,21 @@ export const Columns = styled.div`
       )
       1 100%;
   }
+
+  /* border-left: 1px solid; */
+  @media (min-width: 768px) {
+    > td {
+      > tr {
+        height: 85px;
+      }
+    }
+    padding: 25px 35px;
+  }
 `;
 
 const IconCss = css`
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   position: sticky;
 `;
 
