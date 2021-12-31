@@ -74,7 +74,7 @@ const Layout: React.FC = () => {
           <TableTechnologies />
         </Section>
 
-        <Section>
+        <Section id="portfolio">
           <LeftContent>
             <img src={Laptop} alt="Laptop" />
 
@@ -84,7 +84,7 @@ const Layout: React.FC = () => {
 
           <RightContent>
             <a
-              href="https://www.linkedin.com/in/juan-alencar"
+              href="https://github.com/juan-alencar"
               target="_blank"
               rel="noreferrer"
             >
@@ -99,18 +99,20 @@ const Layout: React.FC = () => {
             </a>
           </RightContent>
         </Section>
-        <Posts>
-          <ThumbnailsPosts />
-          <ThumbnailsPosts />
-        </Posts>
-        <Button className="more">more?</Button>
+        <Section className="sectionPosts">
+          <Posts>
+            <ThumbnailsPosts />
+            <ThumbnailsPosts />
+          </Posts>
+          <Button className="more">more?</Button>
+        </Section>
 
         <Section>
           <LeftContent>
             <img src={Cloud} alt="Cloud" />
 
-            <h1>popular</h1>
-            <h1>&&important posts</h1>
+            <h1>popular&&</h1>
+            <h1>important posts</h1>
           </LeftContent>
 
           <RightContent>
@@ -130,11 +132,13 @@ const Layout: React.FC = () => {
             </a>
           </RightContent>
         </Section>
-        <Posts>
-          <ThumbnailsPosts />
-          <ThumbnailsPosts />
-        </Posts>
-        <Section>
+        <Section className="sectionPosts">
+          <Posts>
+            <ThumbnailsPosts />
+            <ThumbnailsPosts />
+          </Posts>
+        </Section>
+        <Section id="about">
           <LeftContent>
             <img src={Robot2} alt="Robot2" />
 
