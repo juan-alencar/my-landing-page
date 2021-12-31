@@ -11,11 +11,14 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding: 0 100px;
   max-width: 1200px;
   margin: auto;
 
   position: relative;
+
+  @media (min-width: 768px) {
+    padding: 0 100px;
+  }
 `;
 
 export const SplashImg = styled.div`
@@ -37,6 +40,9 @@ export const Section = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  width: 100%;
+
+  padding: 0 10%;
 
   &:first-child {
     flex-direction: column-reverse;
@@ -52,10 +58,17 @@ export const Section = styled.div`
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     &:first-child {
       height: 85vh;
       flex-direction: row;
       margin-bottom: -100px;
+    }
+    &.sectionPosts {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-top: 0px;
     }
   }
 `;
@@ -103,6 +116,7 @@ export const MonitorContainer = styled.div`
   @media (min-height: 700px) {
     display: flex;
     margin-bottom: 50px;
+    justify-content: center;
 
     > img {
       width: 150px;
@@ -172,8 +186,16 @@ export const LeftContent = styled.div`
 export const RightContent = styled.div``;
 export const Posts = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 105%;
+  }
 `;
 
 // ---------------------------------------- BUTTON AND ICONS ----------------------------------------
