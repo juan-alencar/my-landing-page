@@ -6,6 +6,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-end;
+  align-self: flex-end;
   margin-top: 24px;
   > img {
     max-width: 300px;

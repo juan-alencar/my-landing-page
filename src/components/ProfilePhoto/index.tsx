@@ -21,7 +21,7 @@ const ProfilePhoto: React.FC = () => {
           <WhatsappIcon />
         </a>
       </Icons>
-      <img src="https://i.ibb.co/fSMPFvy/juan.png" alt="juanfoto" />
+      {/* <img src="https://i.ibb.co/fSMPFvy/juan.png" alt="juanfoto" /> */}
     </Container>
   );
 };
