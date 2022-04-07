@@ -1,7 +1,7 @@
 import React from 'react';
-import Switch from 'react-switch';
+// import Switch from 'react-switch';
 
-import { Container, Toggle, ToggleButton } from './styles';
+import { Container } from './styles';
 
 const Menu: React.FC = () => {
   return (
