@@ -4,29 +4,38 @@ import Monitor from '../../assets/monitor.svg';
 import Robot1 from '../../assets/robot1.svg';
 import Robot2 from '../../assets/robot2.svg';
 import Brain from '../../assets/brain.svg';
-import Laptop from '../../assets/laptop.svg';
-import Cloud from '../../assets/cloud1.svg';
+// import Laptop from '../../assets/laptop.svg';
+// import Cloud from '../../assets/cloud1.svg';
 import Splash from '../../assets/splash.png';
 
 import ProfilePhoto from '../ProfilePhoto';
 import TableTechnologies from '../TableTechnologies';
-import ThumbnailsPosts from '../ThumbnailsPosts';
+// import ThumbnailsPosts from '../ThumbnailsPosts';
 import Menu from '../Menu';
 
 import {
   Container,
   Section,
   Profile,
-  Posts,
   Button,
   SplashImg,
   MonitorContainer,
   LeftContent,
-  RightContent,
-  GithubIcon,
-  LinkedinIcon,
-  TwitterIcon,
 } from './styles';
+// import {
+//   Container,
+//   Section,
+//   Profile,
+//   Posts,
+//   Button,
+//   SplashImg,
+//   MonitorContainer,
+//   LeftContent,
+//   RightContent,
+//   GithubIcon,
+//   LinkedinIcon,
+//   TwitterIcon,
+// } from './styles';
 
 const Layout: React.FC = () => {
   return (
