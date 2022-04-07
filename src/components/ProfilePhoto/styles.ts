@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { Whatsapp, Instagram } from '../../styles/Icons';
+import { Whatsapp, Instagram, Linkedin } from '../../styles/Icons';
 
 export const Container = styled.div`
   display: flex;
@@ -33,5 +33,8 @@ export const InstagramIcon = styled(Instagram)`
   ${IconCss}
 `;
 export const WhatsappIcon = styled(Whatsapp)`
+  ${IconCss}
+`;
+export const LinkedinIcon = styled(Linkedin)`
   ${IconCss}
 `;

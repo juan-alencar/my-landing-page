@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: none;
 
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     display: flex;
     align-items: center;
     justify-content: space-between;

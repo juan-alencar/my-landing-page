@@ -9,9 +9,6 @@ export default createGlobalStyle`
     color: var(--white);
  }
 
- html, border-style, #root{
-}
-
 *, button, input{
    border: 0;
    background: none;
@@ -27,7 +24,7 @@ html {
     :root{
         --primary: #07F49E;
         --secondary: #0B3866; 
-        --white: #FFF;
+        --white: #FFFFFF;
         --black: #202020;
         --primary-hover: #08C590;
     }

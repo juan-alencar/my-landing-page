@@ -74,7 +74,7 @@ const Layout: React.FC = () => {
           <TableTechnologies />
         </Section>
 
-        <Section id="portfolio">
+        {/* <Section id="portfolio">
           <LeftContent>
             <img src={Laptop} alt="Laptop" />
 
@@ -105,9 +105,9 @@ const Layout: React.FC = () => {
             <ThumbnailsPosts />
           </Posts>
           <Button className="more">more?</Button>
-        </Section>
+        </Section> */}
 
-        <Section>
+        {/* <Section>
           <LeftContent>
             <img src={Cloud} alt="Cloud" />
 
@@ -137,7 +137,7 @@ const Layout: React.FC = () => {
             <ThumbnailsPosts />
             <ThumbnailsPosts />
           </Posts>
-        </Section>
+        </Section> */}
         <Section id="about">
           <LeftContent>
             <img src={Robot2} alt="Robot2" />
